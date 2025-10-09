@@ -1,0 +1,112 @@
+# NextGen Project - Root .gitignore
+
+# ===================================
+# EXCLUDE ENTIRE DIRECTORIES
+# ===================================
+_DOCS/
+_SQL/
+
+# ===================================
+# AZURE FUNCTION APP (_AZURE/)
+# ===================================
+_AZURE/local.settings.json
+_AZURE/local.settings.sample.json
+_AZURE/.vscode/
+_AZURE/.vs/
+_AZURE/__azurite_db*__.json
+_AZURE/__blobstorage__/
+_AZURE/__queuestorage__/
+_AZURE/models/
+_AZURE/.venv/
+_AZURE/venv/
+_AZURE/__pycache__/
+_AZURE/*.pyc
+_AZURE/.pytest_cache/
+_AZURE/test/
+
+# ===================================
+# WEBSITE (_WEBSITE/)
+# ===================================
+
+# Dependencies
+_WEBSITE/node_modules/
+_WEBSITE/vendor/
+
+# Environment & Config Files
+_WEBSITE/.env
+_WEBSITE/.env.local
+_WEBSITE/.env.production
+_WEBSITE/config/_config.php
+_WEBSITE/config/_config copy.php
+
+# Temporary Files
+_WEBSITE/temp.php
+_WEBSITE/*.tmp
+_WEBSITE/*.temp
+
+# Upload/User Files
+_WEBSITE/files/
+_WEBSITE/*.xlsx
+_WEBSITE/*.xls
+
+# System Files
+_WEBSITE/.DS_Store
+_WEBSITE/Thumbs.db
+_WEBSITE/.ftpquota
+
+# IDE Files
+_WEBSITE/.vscode/
+_WEBSITE/.idea/
+_WEBSITE/*.swp
+_WEBSITE/*.swo
+
+# Logs
+_WEBSITE/*.log
+_WEBSITE/error_log
+
+# Cache
+_WEBSITE/cache/
+_WEBSITE/tmp/
+
+# ===================================
+# GLOBAL PATTERNS (ALL DIRECTORIES)
+# ===================================
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+error_log
+debug.log
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Environment Files
+.env
+.env.local
+.env.production
+.env.staging
+
+# Git
+.git/
+*.orig
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
