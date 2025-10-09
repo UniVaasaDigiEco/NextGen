@@ -1,6 +1,12 @@
-# NextGen - Food Waste Prediction System
+# 🥗 NextGen — Tulevaisuuden hävikkiä vähentävä buffetruokailu  
+### *NextGen – The Future of Food Waste-Reducing Buffet Dining*
 
-A comprehensive system for predicting and managing food waste using machine learning and web-based data management.
+**NextGen** was a joint research project (2023–2025) coordinated by the [University of Vaasa](https://www.uwasa.fi/en/tutkimus/hankkeet/nextgen) focused on reducing food waste in the **Horeca** (hotel, restaurant, café) sector. The project developed and piloted a **digital predictive model** and co-created new operational methods that encourage sustainable, data-driven decision-making among staff and customers.
+
+The project successfully concluded in 2025, producing a set of **digital tools, models, and practical guidelines** now released here for open use. These resources aim to support further research and real-world adoption of smart, collaborative food waste reduction solutions.
+
+*Co-funded by the European Union through the European Regional Development Fund (ERDF & ESF 2021–2027).*
+
 
 ## Project Structure
 
